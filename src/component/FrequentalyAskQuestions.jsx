@@ -11,13 +11,13 @@ const FrequentalyAskQuestions = () => {
         setAccoActive(accoActive === index ? null : index);
     };
     return (
-        <div className='bg-off-white'>
+        <div className='bg-off-white xl:pt-[458px] md:py-12 py-6 xl:pb-[74px]'>
             <div className='container'>
-                <div className='flex lg:gap-12 gap-9 max-lg:flex-wrap'>
-                    <div>
-                        <img src="/assets/images/png/girl-image.png" alt="girl" className='max-w-[600px] w-full' />
+                <div className='flex xl:gap-12 gap-8 max-lg:flex-wrap'>
+                    <div className='lg:w-[50%]'>
+                        <img src="/assets/images/png/girl-image.png" alt="girl" className='max-w-[600px] w-full h-full object-cover' />
                     </div>
-                    <div className='max-w-[552px] w-full'>
+                    <div className='max-w-[552px] w-full lg:w-[50%]'>
                         <Heading text="Key Q&A" classStyle="pb-2" />
                         <div className='pb-4'>
                             {KEY_INDRODUTION.map((introdution, index) => (

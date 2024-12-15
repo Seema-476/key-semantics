@@ -5,7 +5,7 @@ import CustomButton from '../common/CustomButton'
 
 const FederatedSearch = () => {
   return (
-      <div className='xl:pb-[74px] md:pb-12 pb-6 bg-off-white'>
+      <div className='xl:py-[74px] md:py-12 py-6 bg-off-white'>
           <div className='container'>
               <div className='flex justify-between max-lg:flex-wrap'>
                   <div className='max-w-[552px] w-full flex gap-12'>

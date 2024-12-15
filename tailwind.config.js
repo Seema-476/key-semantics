@@ -38,6 +38,8 @@ module.exports = {
         'z-black': "#24254b",
         'sky-blue': "#48c3d7",
         'purple': "#7c7db9",
+        'light-purple': "#7c7eb9",
+        'levender': "#ece8f8",
       },
       boxShadow: {
         'custom-xl': "0px 10px 40px 0px #41566B0D",
