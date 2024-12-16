@@ -1,15 +1,27 @@
 import React from 'react'
-import Heading from '../common/Heading'
+import Lottie from 'react-lottie-player'
+import semantics from '../lottie/semantics.json'
+import semanticsMobile from '../lottie/semantics-mobile-view.json'
 
 const KeySemantics = () => {
   return (
-      <div className='-mb-[294px]'>
-          <div className='container'>
-              <div className='shadow-custom-xl bg-white pb-28 pt-20 px-16 rounded-2xl border border-aqua-light relative z-10'>
-                  <img src="/assets/images/webp/keysemantics-logo.webp" alt="logo" className='w-[248px] mx-auto pb-16' />
-                  <img src="/assets/images/webp/analysis-image.webp" alt="analysis" className='max-w-[1072px] w-full mx-auto' />
-              </div>
-          </div>
+    <div className='xl:-mb-[294px] lg:-mb-[250px] md:-mb-[185px] sm:-mb-[135px] -mb-[270px]'>
+      <div className='container'>
+        <div className='max-w-[1200px] w-full sm:block hidden'>
+          <Lottie
+            loop
+            animationData={semantics}
+            play
+          />
+        </div>
+        <div className='max-w-[1200px] w-full sm:hidden'>
+          <Lottie
+            loop
+            animationData={semanticsMobile}
+            play
+          />
+        </div>
+      </div>
     </div>
   )
 }

@@ -23,11 +23,13 @@ module.exports = {
       lineHeight: {
         'custom-base': "14px",
         'custom-xl': "19.5px",
-        'custom-2xl': "60px",
+        'custom-2xl': "50px",
         'custom-3xl': "67px",
         'custom-4xl': "72px",
       },
       colors: {
+        'silver-gray': "#f7f9fb",
+        'red': "#d22e68",
         'deep-blue': "#191a42",
         'dark-blue': "#111235",
         'off-white': "#f7f9fb",

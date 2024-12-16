@@ -1,26 +1,21 @@
 import React from 'react'
-import Heading from '../common/Heading'
 import { FEDERATED_SEARCH } from '../utils/Helper'
-import CustomButton from '../common/CustomButton'
+import CommonCard from '../common/CommonCard'
 
 const FederatedSearch = () => {
   return (
       <div className='xl:py-[74px] md:py-12 py-6 bg-off-white'>
           <div className='container'>
-              <div className='flex justify-between max-lg:flex-wrap'>
-                  <div className='max-w-[552px] w-full flex gap-12'>
+              <div className='flex justify-between max-lg:flex-wrap max-lg:flex-col-reverse lg:gap-12 gap-8'>
+                  <div className='lg:max-w-[552px] w-full flex'>
                       <div className='w-full'>
-                          <Heading text="Headless federated search" classStyle="pb-2"/>
-                          {FEDERATED_SEARCH.map((federated, index) => (
-                              <div key={index} className='relative after:w-1 after:h-1 after:rounded-full after:bg-dark-blue after:top-2 md:after:top-[14px] after:left-2 after:absolute after:content-[""]'>
-                                  <p className='font-normal md:text-base text-sm md:leading-7 text-deep-blue pl-6 pb-2 max-w-[542px]'>{federated}</p>
-                              </div>
-                          ))}
-                          <CustomButton text="Get a demo" classStyle="mt-4"/>
+                          <div>
+                              <CommonCard classList="!text-left" heading="Headless federated search" text="Get a demo" list={FEDERATED_SEARCH} />
+                          </div>
                       </div>
                   </div>
                   <div>
-                      <img src="/assets/images/png/federated-image.png" alt="federated" className='max-w-[600px] w-full' />
+                      <img src="/assets/images/webp/federated-image.webp" alt="federated" className='lg:max-w-[600px] w-full pointer-events-none' />
                   </div>
              </div>
           </div>
