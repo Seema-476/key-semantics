@@ -53,7 +53,7 @@ const FrequentalyAskQuestions = () => {
                                 </div>
                             ))}
                         </div>
-                        < CustomButton text="Get a demo" classStyle="mt-6" />
+                        <CustomButton text="Get a demo" classStyle="mt-6" />
                     </div>
                 </div>
             </div>

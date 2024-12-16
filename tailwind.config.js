@@ -23,8 +23,8 @@ module.exports = {
       lineHeight: {
         'custom-base': "14px",
         'custom-xl': "19.5px",
-        'custom-2xl': "50px",
-        'custom-3xl': "67px",
+        'custom-2xl': "40px",
+        'custom-3xl': "50px",
         'custom-4xl': "72px",
       },
       colors: {
