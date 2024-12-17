@@ -14,10 +14,10 @@ const FrequentalyAskQuestions = () => {
         <div className='bg-off-white xl:pt-[400px] lg:pt-[320px] md:pt-[200px] sm:pt-[175px] pt-[295px] md:pb-12 pb-6 xl:pb-[74px]'>
             <div className='container'>
                 <div className='flex xl:gap-12 gap-8 max-lg:flex-wrap'>
-                    <div className='lg:w-[50%] w-full'>
-                        <img src="/assets/images/webp/girl-image.webp" alt="girl" className='lg:max-w-[600px] w-full h-full object-cover' />
+                    <div className='lg:w-[50%] xl:w-[600px] w-full flex max-lg:justify-center lg:sticky h-fit top-4'>
+                        <img className='max-w-[600px] w-full rounded-lg' src="/assets/images/webp/girl-image.webp" alt="women-image" />
                     </div>
-                    <div className='lg:max-w-[552px] w-full lg:w-[50%]'>
+                    <div className='xl:max-w-[552px] w-full lg:w-[50%]'>
                         <Heading text="Key Q&A" classStyle="pb-2 max-lg:!text-center" />
                         <div className='pb-4'>
                             {KEY_INDRODUTION.map((introdution, index) => (
