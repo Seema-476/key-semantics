@@ -18,7 +18,7 @@ const FrequentalyAskQuestions = () => {
                         <img src="/assets/images/webp/girl-image.webp" alt="girl" className='lg:max-w-[600px] w-full h-full object-cover' />
                     </div>
                     <div className='lg:max-w-[552px] w-full lg:w-[50%]'>
-                        <Heading text="Key Q&A" classStyle="pb-2" />
+                        <Heading text="Key Q&A" classStyle="pb-2 max-lg:!text-center" />
                         <div className='pb-4'>
                             {KEY_INDRODUTION.map((introdution, index) => (
                                 <div key={index} className='relative after:w-1 after:h-1 after:rounded-full after:bg-dark-blue after:top-2 md:after:top-[14px] after:left-2 after:absolute after:content-[""]'>

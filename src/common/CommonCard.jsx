@@ -6,9 +6,9 @@ const CommonCard = ({ heading, list, text, classList }) => {
     return (
         <div className={`${classList}p-6`}>
             <Heading text={heading} />
-            <ul className="pb-6 max-w-[552px] lg:ml-4 pt-5 ">
+            <ul className="lg:pb-6 pb-5 max-w-[552px] lg:ml-4 pt-5 ">
                 {list && list.map((item, index) => (
-                    <li key={index} className="list-disc text-royal_blue pb-2 text-base font-normal leading-custom_3xl max-lg:ml-4">
+                    <li key={index} className="list-disc text-deep-blue pb-2 lg:text-base text-sm font-normal lg:leading-7 max-lg:ml-4">
                         {item}
                     </li>
                 ))}

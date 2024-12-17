@@ -16,7 +16,7 @@ const Work = () => {
                                 <Lottie
                                     loop
                                     animationData={item.lottietext}
-                                play/>
+                                    play />
                             </div>
                             <div className='text-center max-w-[278px]'>
                                 <Description text={item.description} classStyle="text-center md:pt-6 pt-3" />
