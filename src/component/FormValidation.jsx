@@ -24,7 +24,7 @@ const FormValidation = () => {
         console.log('Form Data:', formData);
         setFormData(formState);
         swal({
-                    title: "Are you sure?",
+                    title: "Done",
                     text: "Are you sure that you want to leave this page?",
                     icon: "success",
                     dangerMode: true,
@@ -57,7 +57,7 @@ const FormValidation = () => {
                         ))}
                         <p className='font-normal text-custom-base leading-custom-base text-light-purple pt-2 pb-6 text-center'>By submitting my contact information I agree to the KeySemantics Privacy Policy</p>
                         <div className='mx-auto text-center'>
-                            <CustomButton text="Request a demo" classStyle="lg:py-4 py-2 px-5 lg:px-8 text-white bg-sky-blue !border-none hover:!scale-95 duration-700 hover:!bg-sky-blue" />
+                            <CustomButton text="Request a demo" classStyle="lg:py-4 py-2 px-5 lg:px-8 text-white bg-sky-blue !border-none duration-700 hover:!bg-light-purple" />
                         </div>
                     </form>
                 </div>
