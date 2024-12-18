@@ -2,7 +2,7 @@ import React from 'react'
 import { DATA_SECURITY } from '../utils/Helper'
 import CommonCard from '../common/CommonCard'
 
-const DataSecurity = () => {
+const DataSecurity = () => {   
     return (
         <div className='xl:pt-[74px] xl:pb-[164px] md:py-12 pt-6 pb-8 bg-off-white'>
             <div className='container'>

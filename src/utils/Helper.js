@@ -1,7 +1,7 @@
 import Server from "../lottie/file-server.json"
 import Search from "../lottie/search.json"
 import ServerSearch from "../lottie/server-search.json"
-export const KEY_INDRODUTION = [
+export const KEY_INTRODUCTION = [
     "Let customers discover your content using AI-generated questions and answers",
     "Seamlessly integrated into the Semantic Search experience",
     "LLM-powered Question Answering",
